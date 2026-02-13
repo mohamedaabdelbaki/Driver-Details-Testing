@@ -1,31 +1,38 @@
-# Driver Details Feature Testing
+# Driver Details Feature – Test Design Project
 
-This project contains manual testing documentation for the "Add / Update Driver Details" feature in the offline car booking system.
-Note: This project focuses on test case design and documentation. 
-Test execution was not part of the project scope.
+## Project Type
+Manual Test Design (User Story Based)
 
-Tested website:
-https://frontend-rey0.onrender.com/
+## Description
+This project contains test scenarios and detailed test cases derived from a given user story and acceptance criteria for the "Add / Update Driver Details" feature in offline car bookings.
 
 ## Scope
-Testing the ability of operation agents to:
-- Add driver details
-- Update driver details
-- Validate mandatory fields
-- Handle booking status conditions
+The feature allows an operation agent to:
+- Add driver details for confirmed offline bookings
+- Update existing driver details
+- Validate mandatory and optional fields
+- Control feature visibility based on booking status and type
 
-## Test Design
+## Test Coverage
+- Positive test cases
+- Negative test cases
+- Field validation testing
+- UI behavior validation
+- Conditional logic testing (Confirmed + Offline only)
+
+## Assumptions
+- Operation agent is logged in.
+- Booking exists in the system.
+- Booking can have different statuses (Confirmed, Pending, Cancelled).
+- Booking type can be Offline or Online.
+
+## Deliverables
 - Test Scenarios
-- Detailed Test Cases
-- Positive testing
-- Negative testing
-- Assumptions
-- Risk identification
+- Detailed Test Cases (Excel format)
 
 ## Notes
-The first request to the application may take 50–60 seconds due to server cold start behavior.
-Subsequent requests respond normally.
-
+This project focuses on test case design based on provided requirements.
+Test execution was not part of the assignment scope.
 
 ## Author
-Mohamed ahmed ahmed
+Mohamed Ahmed Ahmed
